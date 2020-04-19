@@ -9,8 +9,35 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <!--模块化-->
     <modules>
         <module>spring-study-xml</module>
         <module>spring-study-annotation</module>
+        <module>spring-study-first</module>
     </modules>
+
+    <!--jar 包版本管理，实际不下载jar包-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>4.3.26.RELEASE</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
