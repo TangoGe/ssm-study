@@ -13,10 +13,10 @@
     </parent>
 
 
-    <artifactId>spring-study-annotation</artifactId>
+    <artifactId>spring-bean-annotation</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-study-annotation</name>
+    <name>spring-bean-annotation</name>
 
     <dependencies>
         <dependency>
