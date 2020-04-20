@@ -12,8 +12,19 @@
     </parent>
 
 
-    <artifactId>spring-study-xml</artifactId>
+    <artifactId>spring-bean-autowire</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-study-xml</name>
+    <name>spring-bean-autowire</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
 </project>

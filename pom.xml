@@ -11,9 +11,10 @@
 
     <!--模块化-->
     <modules>
-        <module>spring-study-xml</module>
-        <module>spring-study-annotation</module>
         <module>spring-study-first</module>
+        <module>spring-bean-xml</module>
+        <module>spring-bean-annotation</module>
+        <module>spring-bean-autowire</module>
     </modules>
 
     <!--jar 包版本管理，实际不下载jar包-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--装配一个bean-->
+    <bean id="user" class="com.tango.spring.bean.xml.domain.User">
+        <property name="username" value="tango"/>
+        <property name="age" value="20"/>
+        <property name="password" value="Abcd123456"/>
+        <property name="waihao">
+            <list>
+                <value>小A</value>
+                <value>小B</value>
+                <value>小C</value>
+                <value>小D</value>
+            </list>
+        </property>
+    </bean>
+</beans>

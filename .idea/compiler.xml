@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-study-annotation" />
+        <module name="spring-bean-xml" />
+        <module name="spring-bean-autowire" />
         <module name="spring-study-first" />
-        <module name="spring-study-xml" />
+        <module name="spring-bean-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
   </component>
 </project>
