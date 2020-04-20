@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cacdbed-e491-47c1-9da1-b60c1cdcb1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/spring-bean-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/java/com/tango/spring/bean/annotation/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/java/com/tango/spring/bean/annotation/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/java/com/tango/spring/bean/annotation/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/java/com/tango/spring/bean/annotation/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/java/com/tango/spring/bean/annotation/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/main/resources/spring-context-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/src/test/java/TestInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/src/main/java/com/tango/spring/bean/autowire/domain/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/src/main/java/com/tango/spring/bean/autowire/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/src/main/resources/spring-context-autowire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/src/test/java/TestAutowire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-xml/src/main/java/com/tango/spring/bean/xml/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-xml/src/main/resources/spring-context-xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean-xml/src/test/java/com/tango/spring/bean/xml/test/TestInjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/classes/spring-context-annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-annotation/target/test-classes/TestInjection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/target/classes/com/tango/spring/bean/autowire/domain/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/target/classes/com/tango/spring/bean/autowire/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/target/classes/spring-context-autowire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-autowire/target/test-classes/TestAutowire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-xml/target/classes/com/tango/spring/bean/xml/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean-xml/target/test-classes/com/tango/spring/bean/xml/test/TestInjection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/TestMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/collection/MyCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/factory/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study-first/target/classes/spring-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean-annotation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean-xml/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,12 @@
       <list>
         <option value="Tango" />
       </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -81,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="JUnit.TestAutowire.TestUserAutowire">
     <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -151,7 +157,7 @@
       <workItem from="1587087664546" duration="2811000" />
       <workItem from="1587260201489" duration="8940000" />
       <workItem from="1587292819323" duration="9833000" />
-      <workItem from="1587385359792" duration="6699000" />
+      <workItem from="1587385359792" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1587054460811</created>
@@ -167,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587309834776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="学习spring 基于XML的装配/基于Annotation的装配/自动装配">
+      <created>1587392209836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587392209836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
     <MESSAGE value="Bean 装配方式 &#10;属性注入&#10;构造注入&#10;复杂类型注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bean 装配方式 &#10;属性注入&#10;构造注入&#10;复杂类型注入" />
+    <MESSAGE value="学习spring 基于XML的装配/基于Annotation的装配/自动装配" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习spring 基于XML的装配/基于Annotation的装配/自动装配" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="105" key="#Inspections" timestamp="1587388375479">
@@ -223,15 +237,19 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="452" y="105" width="1016" height="900" key="#Intentions/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587292648088" />
+    <state x="452" y="105" key="#Notifications" timestamp="1587392555469">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="105" key="#Notifications/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392555469" />
     <state x="246" y="0" key="#Project_Structure" timestamp="1587388314639">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="246" y="0" key="#Project_Structure/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587388314639" />
     <state x="175" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1587085924268" />
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587299677308">
+    <state x="414" y="177" width="1160" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587393539549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587299677308" />
+    <state x="414" y="177" width="1160" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393539549" />
     <state x="624" y="31" key="#com.intellij.ide.util.MemberChooser" timestamp="1587392068344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -241,59 +259,67 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="661" y="375" width="598" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587263295480" />
-    <state x="422" y="36" key="CommitChangelistDialog2" timestamp="1587309832357">
+    <state x="422" y="36" key="CommitChangelistDialog2" timestamp="1587392206920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="422" y="36" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587309832357" />
+    <state x="422" y="36" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392206920" />
     <state x="690" y="227" key="FileChooserDialogImpl" timestamp="1587309978899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="227" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587309978899" />
-    <state width="1867" height="314" key="GridCell.Tab.0.bottom" timestamp="1587392084806">
+    <state width="1867" height="314" key="GridCell.Tab.0.bottom" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084806" />
-    <state width="1867" height="314" key="GridCell.Tab.0.center" timestamp="1587392084805">
+    <state width="1867" height="314" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.0.center" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084805" />
-    <state width="1867" height="314" key="GridCell.Tab.0.left" timestamp="1587392084805">
+    <state width="1867" height="314" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.0.left" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084805" />
-    <state width="1867" height="314" key="GridCell.Tab.0.right" timestamp="1587392084805">
+    <state width="1867" height="314" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.0.right" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084805" />
-    <state width="1867" height="314" key="GridCell.Tab.1.bottom" timestamp="1587392084644">
+    <state width="1867" height="314" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.1.bottom" timestamp="1587393025474">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.1.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084644" />
-    <state width="1867" height="314" key="GridCell.Tab.1.center" timestamp="1587392084644">
+    <state width="1867" height="314" key="GridCell.Tab.1.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025474" />
+    <state width="1867" height="314" key="GridCell.Tab.1.center" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.1.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084644" />
-    <state width="1867" height="314" key="GridCell.Tab.1.left" timestamp="1587392084644">
+    <state width="1867" height="314" key="GridCell.Tab.1.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.1.left" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.1.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084644" />
-    <state width="1867" height="314" key="GridCell.Tab.1.right" timestamp="1587392084644">
+    <state width="1867" height="314" key="GridCell.Tab.1.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
+    <state width="1867" height="314" key="GridCell.Tab.1.right" timestamp="1587393025473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="314" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392084644" />
+    <state width="1867" height="314" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393025473" />
     <state x="365" y="18" key="RollbackChangesDialog" timestamp="1587087613884">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="365" y="18" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1587087613884" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1587387666709">
+    <state x="312" y="0" key="SettingsEditor" timestamp="1587392853989">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="312" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587387666709" />
+    <state x="312" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392853989" />
     <state x="70" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587086002493" />
+    <state x="452" y="197" key="Vcs.Push.Dialog.v2" timestamp="1587392885648">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="197" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392885648" />
     <state x="640" y="201" key="VcsDiffUtil.ChangesDialog" timestamp="1587054490203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="201" key="VcsDiffUtil.ChangesDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587054490203" />
+    <state x="768" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1587392644645">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="768" y="384" key="git4idea.rebase.GitRebaseDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392644645" />
     <state x="532" y="239" key="run.anything.popup" timestamp="1587386045776">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
