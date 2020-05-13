@@ -11,20 +11,19 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-
-    <artifactId>spring-bean-xml</artifactId>
+    <artifactId>mybatis-first</artifactId>
     <packaging>jar</packaging>
-
-    <name>spring-bean-xml</name>
+    <name>mybatis-first</name>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
         </dependency>
     </dependencies>
 </project>

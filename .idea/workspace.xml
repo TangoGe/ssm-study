@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cacdbed-e491-47c1-9da1-b60c1cdcb1fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ssm-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-first/src/main/java/com/tango/mybatis/first/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-first/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-first/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-aspectj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-aspectj/src/main/java/com/tango/spring/aop/aspectj/xml/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-aspectj/src/main/resources/spring-context-aspectj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-bean-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean-annotation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/com/tango/spring/bean/annotation/web/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/classes/spring-context-annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/target/test-classes/TestInjection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-autowire/target/classes/com/tango/spring/bean/autowire/domain/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-autowire/target/classes/com/tango/spring/bean/autowire/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-autowire/target/classes/spring-context-autowire.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-autowire/target/test-classes/TestAutowire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-bean-annotation/spring-bean-annotation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-bean-autowire/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean-autowire/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-bean-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-bean-xml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-xml/target/classes/com/tango/spring/bean/xml/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-bean-xml/target/test-classes/com/tango/spring/bean/xml/test/TestInjection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/TestMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/collection/MyCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/dao/IUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/com/tango/spring/study/first/factory/DaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-first/target/classes/spring-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-study-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-study-first/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\Maven\repository" />
         <option name="mavenHome" value="D:/Maven/maven" />
         <option name="userSettingsFile" value="D:\Maven\maven\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -68,6 +66,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
     <option name="enabledProfiles">
@@ -90,11 +89,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-first/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.TestAutowire.TestUserAutowire">
     <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -165,6 +169,20 @@
       <workItem from="1587260201489" duration="8940000" />
       <workItem from="1587292819323" duration="9833000" />
       <workItem from="1587385359792" duration="9369000" />
+      <workItem from="1587394951768" duration="602000" />
+      <workItem from="1587559431481" duration="5578000" />
+      <workItem from="1587567421317" duration="2410000" />
+      <workItem from="1587653851222" duration="110000" />
+      <workItem from="1587654039063" duration="354000" />
+      <workItem from="1587688777292" duration="1672000" />
+      <workItem from="1588044224675" duration="208000" />
+      <workItem from="1588127060990" duration="1742000" />
+      <workItem from="1588129261867" duration="300000" />
+      <workItem from="1588129609620" duration="91000" />
+      <workItem from="1588129781232" duration="5082000" />
+      <workItem from="1588742035942" duration="598000" />
+      <workItem from="1589275885913" duration="26000" />
+      <workItem from="1589335952426" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1587054460811</created>
@@ -194,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587393576804</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="学习spring 基于XML的装配/基于Annotation的装配/自动装配">
+      <created>1587395023836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587395023836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +268,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习spring 基于XML的装配/基于Annotation的装配/自动装配" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="452" y="105" key="#Inspections" timestamp="1587388375479">
+    <state x="452" y="105" key="#Inspections" timestamp="1587561028288">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="452" y="105" key="#Inspections/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587388375479" />
+    <state x="452" y="105" key="#Inspections/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587561028288" />
     <state x="452" y="105" width="1016" height="900" key="#Intentions" timestamp="1587292648088">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -255,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="452" y="105" key="#Notifications/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392555469" />
-    <state x="246" y="0" key="#Project_Structure" timestamp="1587388314639">
+    <state x="246" y="0" key="#Project_Structure" timestamp="1587567624585">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="246" y="0" key="#Project_Structure/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587388314639" />
+    <state x="246" y="0" key="#Project_Structure/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587567624585" />
     <state x="175" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1587085924268" />
     <state x="414" y="177" width="1160" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587394397179">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -273,30 +298,35 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="661" y="375" width="598" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587263295480" />
-    <state x="422" y="36" key="CommitChangelistDialog2" timestamp="1587393574651">
+    <state x="422" y="36" key="CommitChangelistDialog2" timestamp="1587395022191">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="422" y="36" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587393574651" />
-    <state x="690" y="227" key="FileChooserDialogImpl" timestamp="1587309978899">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="422" y="36" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587395022191" />
+    <state x="491" y="143" key="FileChooserDialogImpl" timestamp="1588423113742">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="690" y="227" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587309978899" />
-    <state width="1867" height="272" key="GridCell.Tab.0.bottom" timestamp="1587394922941">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="491" y="143" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588423113742" />
+    <state width="1313" height="141" key="GridCell.Tab.0.bottom" timestamp="1587691091171">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587394922941" />
-    <state width="1867" height="272" key="GridCell.Tab.0.center" timestamp="1587394922941">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587570794265" />
+    <state width="1313" height="141" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587691091171" />
+    <state width="1313" height="141" key="GridCell.Tab.0.center" timestamp="1587691091171">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587394922941" />
-    <state width="1867" height="272" key="GridCell.Tab.0.left" timestamp="1587394922941">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587570794265" />
+    <state width="1313" height="141" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587691091171" />
+    <state width="1313" height="141" key="GridCell.Tab.0.left" timestamp="1587691091171">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587394922941" />
-    <state width="1867" height="272" key="GridCell.Tab.0.right" timestamp="1587394922941">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587570794265" />
+    <state width="1313" height="141" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587691091171" />
+    <state width="1313" height="141" key="GridCell.Tab.0.right" timestamp="1587691091171">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587394922941" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587570794265" />
+    <state width="1313" height="141" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587691091171" />
     <state width="1867" height="314" key="GridCell.Tab.1.bottom" timestamp="1587394922937">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -317,15 +347,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="365" y="18" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1587087613884" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1587392853989">
+    <state x="70" y="0" key="SettingsEditor" timestamp="1588139957356">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587568891996" />
+    <state x="70" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588139957356" />
+    <state x="452" y="197" key="Vcs.Push.Dialog.v2" timestamp="1587395175195">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="312" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392853989" />
-    <state x="70" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587086002493" />
-    <state x="452" y="197" key="Vcs.Push.Dialog.v2" timestamp="1587392885648">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="452" y="197" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392885648" />
+    <state x="452" y="197" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587395175195" />
     <state x="640" y="201" key="VcsDiffUtil.ChangesDialog" timestamp="1587054490203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -334,17 +364,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="417" y="204" width="1086" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587394895048" />
+    <state x="0" y="0" width="901" height="738" key="find.popup" timestamp="1588129479985">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="901" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1588129479985" />
     <state x="768" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1587392644645">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="768" y="384" key="git4idea.rebase.GitRebaseDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587392644645" />
-    <state x="532" y="239" key="run.anything.popup" timestamp="1587386045776">
+    <state x="0" y="9" key="new project wizard" timestamp="1588128013216">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="9" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1588128013216" />
+    <state x="378" y="168" width="840" height="727" key="run.anything.popup" timestamp="1588423342041">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="532" y="239" width="840" height="1034" key="run.anything.popup/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587569047400" />
+    <state x="378" y="168" width="840" height="727" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1588423342041" />
+    <state x="588" y="147" key="spring file set editor" timestamp="1587567621849">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="532" y="239" key="run.anything.popup/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587386045776" />
-    <state x="588" y="147" key="spring file set editor" timestamp="1587388431591">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="588" y="147" key="spring file set editor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587388431591" />
+    <state x="588" y="147" key="spring file set editor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1587567621849" />
   </component>
 </project>

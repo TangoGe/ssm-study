@@ -5,40 +5,93 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tango</groupId>
-    <artifactId>spring-study</artifactId>
+    <artifactId>ssm-study</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+
     <!--模块化-->
     <modules>
+        <!--spring-->
         <module>spring-study-first</module>
         <module>spring-bean-xml</module>
         <module>spring-bean-annotation</module>
         <module>spring-bean-autowire</module>
+        <module>spring-aop-aspectj</module>
+        <!--mybatis-->
+        <module>mybatis-first</module>
     </modules>
 
     <!--jar 包版本管理，实际不下载jar包-->
     <dependencyManagement>
         <dependencies>
+            <!--spring-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>4.3.26.RELEASE</version>
             </dependency>
 
+            <!--AOP aspectj-->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>1.9.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.5</version>
+            </dependency>
 
+
+            <!--log-->
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
             </dependency>
 
+            <!--junit-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
+
+            <!--mysql connector-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.19</version>
+            </dependency>
+
+            <!--mybatis-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.5.4</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!-- Compiler 插件, 设定 JDK 版本 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                    <showWarnings>true</showWarnings>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -12,19 +12,25 @@
     </parent>
 
 
-    <artifactId>spring-bean-xml</artifactId>
+    <artifactId>spring-aop-aspectj</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-bean-xml</name>
+    <name>spring-aop-aspectj</name>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
         </dependency>
     </dependencies>
 </project>
